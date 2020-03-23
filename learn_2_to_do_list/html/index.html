@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/style.css"/> 
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="left" >
+                <div id="left_top">
+                    <div id="calender_head">
+                        <!-- <a href=""id="prev" src">Prev Month</a> -->
+                        <img id="prev" src="../img/to_left.png" alt="">
+                        <div id="m_and_y">
+                        <h1 id="calender_month" class="green" ></h1>
+                        <h2 id="calender_year" class="green"></h2>
+                        </div>
+                        <!-- <a href=""id="next">Next Month</a> -->
+                        <img id="next" src="../img/to_right.png" alt="">
+                    </div>
+                   
+                    <div id="week_list" class="lightgrey">
+                        <ul>
+                            <li>MON</li>
+                            <li>TUE</li>
+                            <li>WED</li>
+                            <li>THU</li>
+                            <li>FRI</li>
+                            <li>SAT</li>
+                            <li>SUN</li>
+                        </ul>
+                    </div>
+                    <div id="date">
+                        <ul id="date_list"></ul>
+                    </div>
+                </div>
+                <div id="left_middle">
+                    
+                </div>
+                <div id="left_bottom"></div>
+            </div>
+            <div id="right">
+                <div id="right_top">
+                    
+                </div>
+                <div id="right_middle">
+                    <p>待完成</p>
+                    <ul id="todolist"></ul>
+                </div>
+                <div id="right_bottom">
+                    <p>已完成</p>
+                    <ul id="donelist"></ul>
+
+                </div>
+                <div id="right_op">
+                    <img id="add" src="../img/plus.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <script src="../js/calender.js"></script>
+        <script type="text/javascript" src="../js/today_time.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="../js/add_list.js" charset="UTF-8"></script>
+    </body>
+</html>
