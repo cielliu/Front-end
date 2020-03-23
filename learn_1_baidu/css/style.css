@@ -1,0 +1,114 @@
+#nav {
+  float: right;
+  margin: 19px 0 5px;
+  padding: 0 50px 0 0;
+}
+.nav_1 {
+  float: left;
+  color: #333;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+#nav_1 a:link,
+#nav_1 a:visited {
+  color: #333;
+}
+#nav_1 {
+  float: left;
+}
+#nav_2 {
+  float: left;
+}
+
+#nav_3 {
+  float: left;
+  width: 60px;
+  height: 25px;
+  margin-left: 20px;
+  text-align: center;
+  background: #38f;
+}
+
+.nav_3 {
+  width: 60px;
+  height: 23px;
+  font-size: 13px;
+  color: #fff;
+  background: #38f;
+  text-decoration: none;
+}
+#div_logo img {
+  width: 250px;
+  height: 150px;
+}
+#div_logo {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 6%;
+}
+#div_form {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.div_form1 {
+  float: left;
+  width: 75%;
+  text-align: right;
+  padding: 10px 0;
+}
+.div_form2 {
+  float: left;
+  padding: 10px 0;
+}
+.div_form3 {
+  float: left;
+  padding: 10px 0;
+}
+#div_logo2 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 10% 0 5px 0;
+}
+#div_logo2 img {
+  height: 100px;
+  width: 100px;
+}
+#div_text1 {
+  font-weight: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #000;
+  float: left;
+  width:100%;
+  text-align: center;
+}
+#div_text2{
+    font-weight: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #000;
+    float: left;
+    width:100%;
+    text-align: center;
+}
+#div_footer {
+    height: 50px;
+    float: left;
+    width:100%;
+    text-align: center;
+    color:#999;
+    position: absolute;
+    bottom: 47px;
+    font-size: 12px;
+}
+#div_footer a{
+    color:#999;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
